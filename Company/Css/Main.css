@@ -1,0 +1,450 @@
+body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+  }
+
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+  }
+  
+  /*GENERAL*/
+
+
+/* Overwrite default styles of h3 and h4 */
+h2 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px; 
+    font-size: 20px;
+    color: #111;
+}
+
+/* Remove rounded borders on input fields */
+.form-control {
+    border-radius: 0;
+}
+
+/* Disable the ability to resize textareas */
+textarea {
+    resize: none;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  .jumbotron {
+      background-color: #0099ff;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+  }
+/* -----Button------*/
+  
+ #button {
+  display: inline-block;
+  float: right;
+   margin-right: 28%;
+  border-radius: 4px;
+ background-color: #0099ff;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 120%;
+  padding: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 9px;
+  border: 1px solid white;;
+}
+
+#button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#button:hover span {
+  padding-right: 25px;
+  color: white;
+  
+}
+
+#button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#butt {
+  display: inline-block;
+  float: right;
+   margin-right: 0px;
+  border-radius: 4px;
+ background-color: #0099ff;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 120%;
+  padding: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 9px;
+  border: 1px solid white;;
+}
+
+#butt  span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#butt span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#butt:hover span {
+  padding-right: 25px;
+  color: white;
+  
+}
+
+#butt:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+   
+  #but {
+  display: inline-block;
+  float: right;
+   
+  border-radius: 4px;
+ background-color: #0099ff;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 120%;
+  padding: 15px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border-radius: 9px;
+  border: 1px solid white;;
+}
+
+#but  span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#but span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#but:hover span {
+  padding-right: 25px;
+  color: white;
+  
+}
+
+#but:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+  
+  
+  
+ /*--------ENd------*/
+ 
+ #about   {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    padding: 0px;
+    margin-top: 5%;
+ }
+ 
+  #second {   background:#f2f2f2; padding: 0px; }
+  #values{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding: 0px;
+    margin-top: 5%;
+  
+ }
+ 
+  #prvni {
+   padding-right: 10%;
+   padding-left: 0px;
+  }
+  
+  #druhy{
+   padding-right: 0px;
+   padding-left: 5%;
+  }
+  
+   #flag { padding-left: 10%;}
+  
+  
+  
+  #contact, #pricing, #services {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color: #0099ff;
+      font-size: 50px;
+  }
+  .logo {
+      color:#0099ff;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+      background-image: none;
+      color: #0099ff;
+  }
+  .carousel-indicators li {
+      border-color: #0099ff;
+  }
+  .carousel-indicators li.active {
+      background-color: #0099ff;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+  .panel {
+      border: 1px solid #0099ff; 
+      border-radius:0 !important;
+      transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #0099ff;
+      background-color: #fff !important;
+      color: #0099ff;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #0099ff !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #0099ff;
+      color: #fff;
+  }
+  .navbar {
+      margin-bottom: 0;
+      background-color:#4db8ff;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+      border-bottom: 1px solid white;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+     
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+      
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #0099ff !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+ 
+  
+  
+  
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #0099ff;
+  }
+  
+  /*----Footer------*/
+
+
+footer {
+    background-color: #4db8ff;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #0066ff;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+  
+  
+  
+  
+  
+  
+  
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;	
+      animation-duration: 1s;	
+      -webkit-animation-duration: 1s;
+      visibility: visible;			
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }	
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+     .textt{width: 100%;}
+      #prvni, #flag{ width: 0%; padding: 0px; margin: 0px; height: 0px; display: none;
+        }
+    .logo{visibility: hidden;}
+    #pricing {margin: 0px;}
+  }
+  
+  
+ 
+  
+@media screen and (max-width: 767px) {
+    .form-inline {
+     width: 50%;
+     margin-left: 25%;
+    }
+    #services { margin-left: 0px; margin-right: 0px; padding-left: 0px; padding-right: 0px;}
+    #picture { width: 20%; margin: 0px; display: inline-block;}
+    #prvni{height: 0px;}
+    .thumbnail{width: 100%;  }
+    #planet {width: 20%; display: inline-block; padding: 0px;}
+    .container-fluid { padding: 0px; margin: 0px; }
+    #myNavbar {  margin-left: 5%; margin-right: 5%;}
+    .navbar {width:  100%; }
+    #meh {border: 1px solid white; margin-top: 2%;  }
+    #zla { width: 100%; margin: 0px;} /*tohle nici ten debilni posun na prave strane!!!*/
+    .navbar-header { padding-left: 2%; padding-right: 2%; }
+    #pricing {margin-left: 25%; margin-right: 25%; }
+    }
+
+  
+  @media screen and (max-width: 585px) {
+      #portfolio { padding-top: 8%;}
+      #button{font-size: 10px;}
+      #planet {display: block; width: 50%;  margin-left: 25%;}
+      #picture { display: block; width: 50%; margin-left: 25%;}
+  }
+  
+  @media screen and (max-width: 585px) {
+  .carousell { display: none; width: 0px; height: 0px;}
+  }
+  
+   @media screen and (max-width: 435px) {
+    .logo {
+        font-size: 150px;
+    }
+    
+    #footer { padding-top: 2%;}
+    #footer p { font-size: 10px;}
+    #pricing { margin-left: 10%; margin-right: 10%; }
+  }
+  
